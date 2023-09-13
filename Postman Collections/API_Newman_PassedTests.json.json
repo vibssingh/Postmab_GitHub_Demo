@@ -82,16 +82,16 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "0d6f747f-aa60-45b5-8668-3ef96be89e4f",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Body matches string\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"UpdatedTest\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"UpdatedTest1\");\r",
 							"});"
 						],
-						"type": "text/javascript",
-						"id": "0d6f747f-aa60-45b5-8668-3ef96be89e4f"
+						"type": "text/javascript"
 					}
 				}
 			],
