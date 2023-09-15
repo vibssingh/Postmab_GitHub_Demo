@@ -35,5 +35,5 @@ jobs:
       - name: Upload Results
         uses: actions/upload-artifact@v3
         with:
-          name: Postman_Test_Reports
+          name: Postman_Test_Report
           path: newman-results
