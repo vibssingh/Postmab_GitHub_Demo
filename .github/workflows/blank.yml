@@ -29,7 +29,8 @@ jobs:
       # Run newman cli
       - name: Run Newman
         run: |
-          newman run Postman Collections/API_Newman_PassedTests.json -r htmlextra
+          cd Postman_Collections
+          newman run API_Newman_PassedTests.json -r htmlextra
      
       # Upload test results to workspace
       - name: Upload Results
